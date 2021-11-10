@@ -1,0 +1,1548 @@
+changes from 0.9:
+
+-fixed autodrive for both Ped/Bodyguards and Player
+-added the three playermodels in modelselection for bodyguards
+-added 23 missing peds
+-fixed never wanted to not flash stars
+-fixed freeze wanted level
+-Vehicle mod menu will now retrieve text for mods from the game
+-fixed issue with nearest ped stuff picking up player (Michael), shouldn't happen anymore
+-moved Gogo Blista to right category
+-added menusound and disablemenuwrap 
+-added car seat belt as well as bike seat belt, both are automatically enabled when cargodmode is enabled
+-added scenarios for bodyguard/peds and player
+-fixed siren when car god mode was enabled.
+-leave engine running
+-save settings function
+-make current weapon invisible
+-added ability to change some keybinds such as vehicle speedup/stop, vehicle rockets, next track,indicators
+-added ability to change to default station using Num * key.
+-ability to stop driving afer waypoint is reached
+-Special God mode makes a return, second options page
+-various other bug fixes
+
+changes from 1.0:
+-Added a few missing weapon attachments (Heavy Shotgun and Marksman Rifle)
+-fixed bug with special godmode not setting health correctly at startup and fixed still being able to die
+-added more animations, trainer now has a total of 21.881 animations.
+-added keybinds for Clear Wanted Level, Spawn Attacking Driver/Ped, Teleport to Waypoint, Teleport to Marker, Car Alarm, Move trhough doors, and explode nearest car.
+-added remove doors in Vehicle doors and windows menu.
+-a bug becomes a feature, disable siren, yes people asked for it :)
+-additional clothes load/save slots, for a total of 20 for Player and 20 for Bodyguards peds
+-fixed some issues with clothes menu and clothes load/save 
+-added Monkey Mosaics (thanks to doppelblind !) in other teleports
+-added DLC vehicles and the PDW weapon
+some features from IV trainer return:
+-Warp to Saved Vehicle
+-Cycle Through Passenger Seats
+-Cruise control (to enable G+7, speedup W, speeddown S, stop space).
+-Attach/Release Vehicle to Skylift (G+8)
+
+Changes from 1.1:
+-various bugfixes
+-added Weapon finishes, these are additional components for the relevant weapons.
+-added bullet proof tyres in vehicle mod menu, they are also saved when saving a car, please be aware that if Vehicle god mode is enabled, you'll get those regardless of how you saved the car.
+-added no menu wrap and menu sound for num4/num6 navigation.
+-added warning message when trying to change chrome wheel color.
+-added stunt jumps in other teleports menu. Thanks to Flavaone for providing them to me.
+-the ped task option has been removed from the main bodyguard menu, it is now located under ped taks menu.
+various options from IV trainer return:
+-added Vehicle Health Display
+-added Set Vehicle Health
+-added lock/unlock vehicle doors
+-added silence alarm when stealing 
+-added Vehicle Rotation 90 degrees
+-added Destroy / Fix Vehicle Engine
+-added walking styles (both for player and bodyguard/ped) currently about 69 styles are available but more research is needed as there bound to be more
+-You can now fully customize the Vehicle God mode, on Vehicle options menu, the second option lets you enable or disable individual options that are part 
+of Vehicle God mode. (this is similar to the special car god mode in IV trainer). Those option will also be saved when using save all settings. 
+The last option (Auto Repair) basically overwrites most of the other options and will simply repair the car when damage occurs. 
+Other than on IV, this should have a lesser effect on the ability to break windows and other stuff (thanks to arewenotmen for finding the native that allows this).
+Also the first option (Prevent Vehicle Damage) will also overwrite some of the other options (the proofs options). 
+Of course for any of this to work, Vehicle god mode needs to be enabled (first option on Vehicle options menu).
+
+Changes from 1.2:
+-added several teleports to interiors, mostly mission stuff (sunken cargo ship, two ufo's, plane and train crash and some other interiors).
+-added peyote teleports in other teleports, thanks to Gforce for providing them to me.
+-fixed issue with time setting forward/backward and not taking hours into account.
+-when enabling cargod mode and disabling tyres can't burst, it wasn't possible to enable bullet proof tyres in Vehicle mod menu, this has been "fixed", 
+when car god mode is enabled together with tyres can't burst, it remains impossible to disable bullet proof tyres in vehicle mod menu. This is by design.
+-changed blip color for attacking and combat ped to unfriedly.
+-weapon tints and attachments can now be used with bodyguards/peds, both before spawn and after using the ped task menu.
+-Gravity gun makes a return, works on peds, cars and objects, just aim at the desired ped, car or object, aim again to attach, move and shoot or drop.
+force settings can be set in game and are saved with save settings.
+-airbreak forward and up speed are now configurable in game and added to save settings.
+-fixed walking styles, most should now work.
+-reviewed controller support, you can now enable or disable controller support via options menu (second page). 
+If enabled more game controls are being disabled whilst the menu is displayed or whilst airbreak or hydraulics is enabled, if disabled these controls are not 
+disabled and keybindings for controller are automatically unbinded. This settings supports the save settings function, so no need to do anything in the ini 
+for controller settings. In addition I changed the dpad right/left scrolling for controller and added controller support for airbreak,hydraulics and Gravity Gun.
+-added spawn weapon by model name.
+-Parachute settings menu off Weapons menu, allows you to equip the primary and secondary parachute, allows you to set the tints for both 
+allows you to set the parachute smoke color and includes unlimited parachutes. Those settings are saved when save settings option is used.
+-added LSI Los Santos Tourist Info Wildlife Photography thanks to choc4444 for providing them to me.
+-added Knife Flights again thanks to choc4444 for providing those.
+-reorganized the other teleports menu, pickup teleports have now moved to new Pickups menu.
+-added keybinds for save teleport (F10+0 / F10+9 for first 10 slots). 
+-added "world conditions" keybinds, time settings and health and armor and give all weapons (Ralt+num0/num9).
+-added "other" Keybinds, see readme for list.
+
+Changes from 1.3:
+-Ability to display ingame messages above minimap (disabled by default), also the ability to set message duration (in seconds)
+message options moved to separate submenu off options menu page 2. This stuff will be saved when save settings is used.
+-Player wet and player dry
+-Added quite a few interiors in the interiors teleport off other teleports menu.
+-Voices return, unfortunately they don't work quite the same way as in IV. First of all there are only a relatively small number of speeches,
+also changing voice for player is not working and for peds this is only supported for the ambient ped models (so no player model).
+In any case, for player you can play a select number of speeches, whilst for bodyguard /peds you can also change the voice (providing it's a normal model).
+-Vehicle Texture corrosion (for lack of a better description), on select vehicles, such as the Canis Bhodi, you can set the Texture corrosion. Thanks to arewenotmen for finding natives. This will also taken into account when saving and loading vehicles.
+-added move_m@multiplayer to walking styles.
+-some cutscenes don't play which causes the trainer to stall. I have added a 10 second wait, if after 10 seconds the cutscene doens't start the trainer will give up waiting and will return normally.
+-added Add Waypoint to Mission Marker, press Pagedown (or use option in mission menu) and a waypoint will be placed on the mission marker.
+-added the 60 predefined teleport slots to locations off other teleport menu, so you can just overwrite them without loosing them.
+-controller support for vehicle rockets (B) 
+-change open menu for controllers to just X, menu cancel is just RB.
+-added Bailbonds to pickup teleports (thanks to choc4444  for providing those).
+-fixed vehicle god mode not being disabled in the last car the player used.
+-added additional keybinds, RCTRL+0 for lock car and various stuff using I+num keys.
+
+Changes from 1.4:
+-Opening and closing the menu with controller back to RB+X as otherwise space opens menu and E closes menu. It should however now work better.
+-Removed controller support for vehicle rockets, as people complained pressing B fires them...
+-Attacking cars will now be removed after some time (by the game).
+-Fixed an issue with time functions and real time duration being enabled.
+
+Changes from 1.5
+-Voices now work on player character as well, thanks to jedijosh920 for finding the native that allows this
+-fixed an issue with RB+X not always correctly opening up the menu depending on how you closed it.
+-added raise/lower roof for convertible cars in doors menu, this is also saved when save vehicle is used.
+-key for airbreak changed F6 is used as switch key to Franklin, new key is G+6.
+-fixed parachute tints not being applied on game start
+-key for Vehicle god mode G+9
+-when using custom color menu (the RGB colors) the pearl colors remained, now you can optionally remove those). Also the custom color menu will work for the saved car.
+-keybind for saved vehicle (K+Num 1) , delete Saved Vehicle (K+Num 0) and teleport to Saved Vehicle (K+Num 2).
+-Keybind for cycle through passenger seats (K+ Num 3).
+-keybind for Enable/disable Gravity gun (K + Num 4) and blow up Cop Cars (K + Num 5) and Teleport bodygards to player (K+ num 6).
+-added the missing Knife Flights, again thanks to choc4444 for providing those.
+-changed freeze time so that time does advance whilst saving and watching tv works again. I will hear when someone doesn't want this and I will make it optional.
+-fixed an issue with real time duration not advancing the hours. 
+-some of the paperscrap teleports have been corrected, thanks to flavaone.
+-added Vinewood Souvenirs Teleports in pickup teleport menu thanks to choc4444.
+-object stuff slowly returns, ability to select from the last spawned 500 objects, move them, clone them, make them visible/invisble and dynamic/static.
+in addition the save and load to objects.ini returns, it will save the last 250 objects to objects.ini so that they can be loaded on demand. 
+-preview object is available when in objects 1 - objects 6, Holding X will preview the selected object.
+-object move speed and rotation speed are saved when save settings is used, this can be set in the object move screen.
+-lower vehicle makes a return as well, including the ability to set the force that is applied (which is also saved when save settings is used).
+-added Bahama Mama's West and Dr Friedlander Office to other teleports, interiors, thanks to TaazR for providing the missing native. 
+-leave engine running now takes the light state into consideration.
+
+Ini Changes:
+
+Defaults (these are automatically added when save all settings is run)
+ObjectMoveSpeed=0.5	//Object Move Speed
+ObjRotationSpeed=0.5	//Object Rotation Speed
+LowerCar=0		//LowerCar
+LowerCarForce=-0.02	//Lower Car Force
+
+Keybindings (copy those to your existing trainerv.ini)
+SavedVehicleKey1=75	//Delete Saved Vehicle Default K
+DSavedVehicleKey2=96	//Delete Saved Vehicle Default Num 0
+SavedVehicleKey1=75	//Saved Vehicle Default K
+SavedVehicleKey2=97	//Saved Vehicle Default Num 1
+TSavedVehicleKey1=75	//Teleport to Saved Vehicle Default K
+TSavedVehicleKey2=98	//Teleport to Saved Vehicle Default Num 2
+CyclePassengerKey1=75	//Cycle through Passenger Seats Default K
+CyclePassengerKey2=99	//Cycle through Passenger Seats Default Num 3
+GravityGunKey1=75	//Enable Gravity Gun Default K
+GravityGunKey2=100	//Enable Gravity Gun Default Num 4
+ExplodeCopCarKey1=75	//Explode Cop Car Default K
+ExplodeCopCarKey2=101	//Explode Cop Car Default Num 5
+BGteleportKey1=75	//Teleport Bodygaurds Default K
+BGteleportKey2=102	//Teleport Bodygaurds Default Num6
+
+Changes from 1.6
+-added 6 vehicles, two weapons, 6 horns from the Ill Gotten Gains Update Part II
+-fixed issue with object loading and collision
+-keybinds for Spawn Random bodygard and player ragdoll
+-added Night Vision and Thermal Vision on weapons menu
+-people reported crashes in model spawning, now I cannot reproduce the issue on my game, but have added two lines of code that hopefully solve this issue.
+
+Ini Changes:
+
+Keybindings (copy those to your existing trainerv.ini)
+SpawnRBodyKey1=75	//Spawn Random Bodyguard Default K
+SpawnRBodyKey2=103	//Spawn Random Bodyguard Default Num7
+RagdollKey1=75		//Ragdoll Default K
+RagdollKey2=104		//Ragdoll Default Num 8
+
+Changes from 1.7
+-added Engine Power Multiplier and Engine Torque Multiplier, values can be set in game and are saved with save all settings.
+-Egine Power Multiplier up and down keys (J+Num1 for down, J+num2 for up) and Egine Torque Multiplier up and down keys (J+num 3 for down, J+num4 for up).
+-reworked object list, now there are around 4900 objects which should all spawn, thanks to arewenotmen for supplying 150 additional objects obtained from scripts.
+-fixed issue with object loading and object cloning.
+-added 10 object load/save slots for saving the last spawned object.
+-changed the player ragdoll keybind (K + Num 8) to get out of the ragdoll when player is in ragdoll, so press K+num8 for ragdoll and K+num8 again to end ragdoll.
+-keybind to toggle between Nightvision, Thermal Vision and normal Vision (K+Num9).
+-when giving ped a combat task, I would equip mini SMG automatically, this has now been removed. 
+-ability to select bodyguard/ped driveby weapon, both before spawn (select drive-by weapon) and after spawn (ped task menu). the before spawn settings are saved when using save all setttings.
+-added slow motion whilst aiming in weapons menu, ability to enable and set the time scale, the settings are saved when save all settings is used.
+-added slow motion whilst driving works like the previous option, but now whilst driving, doesn't work for Franklin (he has his own special ability). Use caps lock or whatever you have set for special ability key.
+-Keys for the two slow motions: J+num5 and J+num6.
+-corrected fly under bridges teleports thanks to doppelblind.
+-added alternative vehicle spawn menu "Vehicles sorted by Model Name".
+-keybind for last played animation (J+Num0).
+
+Ini Changes:
+Keybindings (copy those to your existing trainerv.ini)
+NightVisionKey1=75	//Night Vision Default K
+NightVisionKey2=105	//Night Vision Default Num 9
+AnimationKey1=74	//Last Played Animation Default J
+AnimationKey2=96	//Last Played Animation Default Num 0
+EPMKey1=74		//EPM Down Default J
+EPMKey2=97		//EPM Down Default Num 1
+EPMKey3=74		//EPM Up Default J
+EPMKey4=98		//EPM Up Default Num 2
+ETMKey1=74		//ETM Down Default J
+ETMKey2=99		//ETM Down Default Num 3
+ETMKey3=74		//ETM Up Default J
+ETMKey4=100		//ETM Up Default Num 4
+AimTimeKey1=74		//Aim Time Default J
+AimTimeKey2=101		//Aim Time Default Num 5
+DriveTimeKey1=74	//Drive Time Default J
+DriveTimeKey2=102	//Drive Time Default Num 6
+
+Changes from 1.8
+-fixed issue with move object and rotation.
+-ability to save and load to  objects-objects4.ini, separate submenu off objects menu.
+-clone last spawned object RCTRL+C.
+-hazard lights key J+num7
+
+Ini Changes:
+Keybindings (copy those to your existing trainerv.ini)
+CloneObjectKey1=163	//Clone Object Default RCTRL
+CloneObjectKey2=67	//Clone Object Default C
+HazardKey1=74		//Hazard Lights Default J
+HazardKey2=103		//Hazard Lights Default Num 7
+
+Changes from 1.9
+-fixed issue with dynamic objects not being saved correctly
+-added ability to save ini file with specific name, (Save last 250 Spawned Object to custom ini) this allows you to name your ini something other than objects-objects4.ini.
+-added ability to search for ini files in V's main Directory, this allows you to list all ini files in V's directory (except trainerv.ini) and load the one you want. 
+-atttached objects return, you can attach objects to the Vehicle you are in, the Saved Vehicle, the player and the last or specific Bodyguard Ped.
+-You can of course move attached objects and detach them
+-Ability to save attached objects to Vehicle, Player or Bodyguard/Ped
+-Added Camera that follows the object in object move screen, press F10 to enable. I don't know how usefull this will be, but it is there. You can use mouse to rotate the camera.
+Works also when you press RCTRL+C to clone object in move screen, it will then follow the cloned object if the camera was enabled. Press F10 again to return to normal camera. 
+-Added 4 additional Vehicle Color Load/Save slots
+-Added "by the book house" to other teleports, interiors.
+-Added teleport to Aircraft Carrier and Heist Yaht, for this a separate mod is needed. (http://gtaforums.com/topic/810029-heist-map-updates-in-single-player/page-3#entry1067794362 )
+
+Changes from 2.0
+-added the 5 highlife apartments, the lobbies and the police station for which a separate mod is needed (http://gtaforums.com/topic/810029-heist-map-updates-in-single-player/page-3#entry1067794362 )
+in other teleports, Heist /High Life interiors, this is also where the Aircraft Carrier and Heist Yaht can be found.
+-added three missing high level apartments in other teleports, interiors.
+-ability to set player Health, from 100 to 7000, be sure to disable special god mode for this to work.
+
+Changes from 2.1
+-Thanks to Flavaone, quite a few teleports have been added or corrected. 
+-Many interios have been added, thanks to Taazr for his video, which I used to add those.
+-Blackout in options menu 2.
+-Weapon Damage modifier, enable and set the modifier, saved when using save all settings, both weapon and melee modifiers are enabled, this allows for one hit kills.
+-Ability to set Tattoos for Player Models and MP-freemode Male and Female models. Both for the player and for bodyguards/peds, also ability to save using the save clothes slot. Be aware that I cannot detect tattoos, 
+so only the tattoos set by trainer will be saved and loaded. For Bodyguards, you can only save the one you last used when visiting the tattoo menu.
+-Ability to set the color for Clock, Speedo, Coords, Player Health and Vehicle Health display. (options menu second page).
+-Fixed the issue where after spawning two combat peds all peds fight each other.
+-The above issue can be re-created and reset by using the Relationship menu (options menu page 2) which returns from IV trainer, you can set relationships between two groups and reset them. 
+First Select the two groups and then select relationships and press Num 5 on relationships.
+-Changed everyone ignore, hopefully works better now, otherwise try and use the relationship menu. 
+-Ability to set pearls from all 160 colors instead of only 85.
+-Another feature returns: Added Vehicles, ability to set model name, display name in added cars sections of trainerv.ini, each slot needs to be enabled in ini.
+-Some mods with keybinds to single keys would prevent you from using those keys into functions where text input is needed, such as spawn by model name, I have changed those functions 
+and it should now be possible to use these keys whilst those mods are running.
+-Keybinds, J+ num 8 for increase and J+ num 9 for decrease wanted level, S+ num 1 to equip a silencer on the fly.
+-new task for peds: Follow.
+-Attached Vehicles Menu (Object Menu, Attached Objects menu) which allows to attach a vehicle to another vehicle and move it in position. You can select amongst the last 5 spawned vehicles, providing they still exist.
+-ability to specify a subfolder in V's main folder to search for ini files for object spawning, this ensures ini files in V's main directory are not included, 
+you need to specify the folder in defaults section of trainerv.ini, for instance if you want to use the folder Map Mods, you would do the following: ObjectIniFolder=Map Mods,
+this will make the trainer search for ini files only in main V folder\map mods, and will therefore not search in the main V folder for ini files. You of course need to move the objects ini files to the same folder.
+if you don't set the value, it will continue to search for ini files in the main V folder and all subdirectories of the main V folder.
+-Ability to switch between the normal SP map and the DLC2 MP map, this enables the Heist Yacht and Carrier to be loaded without any additional mods required,
+this will also enable the updated High end Apartments, some lobbies, the police station and the High Life Apartments. You can switch back and forth on the fly
+but be aware switching will take some time, game appears to be frozen, but it's just loading/unloading in the background. Credits to Guadmaz for finding the natives that allow for this.
+this function can be saved at game start, just enable MP map, use save all settings and the next time you will start with the MP map, it will also auto load the Yacht and the Carrier.
+Be aware that we found some downgrades to the safe houses and that playing with the MP map enabled might not be compatible with some story line missions, you have been warned.
+-Alexander Blade has fixed the object limit (250) and will release a new version of his hook in the near future. I have therefore increased the number of objects I track
+to 2048 (which is the absolute limit). Also 500 objects will now be saved to ini file instead of 250 previously. I was able to spawn as many as 1855 objects in game, but this number might
+be lower in different areas of the map. The trainer will no longer crash when you have exceeded the limit. 
+For this to work, you need to wait for Alexander Blade to release the newest scripthook, which should be soon.
+
+Ini changes:
+
+Keybinds:
+
+WantedUKey1=74		//Wanted Level Up Default J
+WantedUKey2=104		//Wanted Level Up Default Num 8
+WantedDKey1=74		//Wanted Level Up Default J
+WantedDKey2=105		//Wanted Level Up Default Num 9
+SilencerKey1=83		//Add Silencer Default S
+SilencerKey2=97		//Add Silencer Default Num 1
+
+Defaults:
+
+ObjectIniFolder=
+WeaponDamage=0		//Weapon Damage Multiplier Enabled
+WeaponPowerMult=1.0	//Weapon Damage Multiplier
+MpMap=0			//MP Map Enabled
+ClockColor1=255		//Color for Clock text, RGB system Red Component Default 255
+ClockColor2=255		//Color for Clock text, RGB system Green Component Default 255
+ClockColor3=255		//Color for Clock text, RGB system Blue Component Default 255
+ClockC=25	  	//Used Internally by trainer
+SpeedoColor1=255	//Color for Speedo text, RGB system Red Component Default 255                            
+SpeedoColor2=255	//Color for Speedo text, RGB system Green Component Default 255                            
+SpeedoColor3=255	//Color for Speedo text, RGB system Blue Component Default 255                            
+SpeedoC=25	        //Used Internally by trainer
+CoordsColor1=255	//Color for Coords text, RGB system Red Component Default 255
+CoordsColor2=255	//Color for Coords text , RGB system Green Component Default 255
+CoordsColor3=255	//Color for Coords text, RGB system Blue Component Default 255
+CoordsC=25		//Used Internally by trainer
+HealthCColor1=255	//Color for Vehicle Health text, RGB system Red Component Default 255
+HealthCColor2=255	//Color for Vehicle Health text , RGB system Green Component Default 255
+HealthCColor3=255	//Color for Vehicle Health text, RGB system Blue Component Default 255
+HealthCC=25		//Used Internally by trainer
+HealthColor1=255	//Color for Player Health text, RGB system Red Component Default 255
+HealthColor2=255	//Color for Player Health text , RGB system Green Component Default 255
+HealthColor3=255	//Color for Player Health text, RGB system Blue Component Default 255
+HealthC=25		//Used Internally by trainer
+
+And the entire Added Cars Section, search for //added cars and copy the entire section to your trainer.ini.
+
+Changes from 2.2
+-No Helmet, options second page
+-No Police Helicopters, options second page
+-Kill all Nearby peds, options second page (just because we can)
+-Explode all Nearby Vehicles, options second page (couldn't resist)
+-Everyone Ignore now works correctly
+-Get Damaged object ID (damage an object and run the option from object menu) this will give you the hash and the name (providing the trainer has the name stored). It will also show up in the spawn by model name screen.
+-Object View, in objects menu, this is code from Alexander blade, slightly modified. It will display the object hash of objects around you,
+be aware that due to the many text entries, this might interfere with the menu, for specific targettted objects use the get damaged object ID function.
+-ability to load map mods (ini files) on startup, create the folder autoload inside V's main directory and just place the ones you want to start in this folder.
+-added Snow in SP, using code from GTAMultiplayer Team, in Weather Menu.
+
+ini changes:
+
+Defaults:
+
+NoHelicopters=0		//No Police Helicopters
+EnableSnow=0		//Enable Snow
+NoHelmet=0		//No Helmet
+
+Changes from 2.3
+-ability to play animation for all spawned Bodyguards/Peds.
+-unload North Yankton (teleport menu).
+-snow will work again on latest patch.
+-updated the global that prevents "recording UI" when using controller.
+
+Changes from 2.4
+-added reveal map using code from GTAMultiplayer Team in options menu page 2.
+-fixed issue with snow not enabling at startup.
+-additional added car menu (40 additional added cars) you can switch between added car menu 1 and 2 using num 4 and num 6.
+-added compatibility with both the Lowrider and Halloween DLC's. 
+-10 new cars, 5 new peds and 3 new weapons (including attachements).
+-added Benny's Garage on other teleports heist (MP map should be enabled).
+-Benny's Vehicle Mod menu will come in a later update (next few  days, not fully researched yet).
+
+ini changes: 
+
+Defaults:
+RevealMap=0		//Reveal Map
+
+Added cars:
+Added cars 41 - 80
+
+Changes from 2.5
+-Benny's Vehicle Mod menu is ready, this menu will handle the new modifications for the new cars, 
+the existing upgrades (also for those new cars) will still be in the Vehicle Mod Menu.
+-Benny's original wheels added (in Vehicle mod menu, also applicable to existing cars).
+-Support for the new modifications when using save car.
+-two additional Vehicle Load/Save menu pages, bringing the total number of slots to 60, cycle between menus using num4 and num6.
+
+No Ini Changes
+
+Changes from 2.6
+-added Trim Design colors and Dashboard colors to Benny's Vehicle Mod Menu (works only for the new cars).
+-added Weapon Finishes for 5 existing weapons (weapon components menu).
+-added Voices for new peds.
+-added the machine pistol at bodyguards driveby weapons.
+-forgot to include the new vehicles into the bodyguard vehicle selection and into the spawn random vehicle functions, fixed.
+
+No Ini Changes
+
+Changes from 2.7
+-Bugfixes only
+
+Changes from 2.8
+-added 26 vehicles
+-added 2 peds and 2 voices
+-added 2 weapons and 4 attachments
+-added 8 teleports to the "Stilt Apartments"
+-added missing weapons attachments for bodyguards driveby weapon
+
+No ini Changes
+
+Changes from 2.9
+-added third added vehicles menu, now 120 added vehicles are possible
+-added fourth Vehicle Load/Save menu, now 80 vehicles can be loaded or saved.
+-added the 3 penthouse suites in teleports,other teleports, Custom Suites (MP maps needed) with the ability to change appearance of the interior.
+-added 2 stilt apartments in teleports,other teleports, heist/high life interiors (MP maps needed). That means all 10 are now in.
+-fixed issue with horns, removed duplicates and they should now all be named properly.
+-fixed issue with unlimited ammo not working on newer DLC weapons.
+-Prevent recording UI global updated.
+-Snow returns, credits go to Yu for finding the memory pattern.
+-Added Yachts in teleports, other teleports Yachts (MP maps needed). You can spawn a total of 36 yachts, you can
+select location, type, lights and the type of rails. Thanks to guadmaz, who provided his source code, which is partially used in this trainer to provide the yachts.
+
+ini changes: 
+
+Added Cars:
+Added 40 additional added vehcile definition
+
+Changes from 3.0
+-For Snow, Deep Vehicle and Deep Ped Tracks are now enabled, furthermore four new settings have been added to the ini (enabled by default)
+Vehicle Tracks, Vehicle Track Depth, Ped Tracks and Ped Tracks Depth. Please be aware that for snow to actually work
+frame scaling mode should be set to off in advanced graphic settings of the game.
+-For people that use single key keybindings, I have put in a check so that those won't work if you use the internet browser.
+-Support for loading ini file from \asi directory if you use that to load trainer.
+-Fixed some issues related to loading a save.
+-Added fourth and fifth added vehicle menu, total is now 200.
+-Added fifth and sixth vehicle load/save menu, total is now 120.
+-Added Second and Third Clothes Load/Save Menu both for Player and Bodyguards/Peds, total 60 slots for both.
+-Added ability to enter animdict+animname using keyboard in animation menu (both Player+bodyguard/Ped), 
+first you enter the animdict (the left part) and then the actual anim name (the right part) separated by a comma.
+-Added second and third animation load/save menu (both Player and bodyguard/ped) this brings the total to 60 save slots.
+
+ini changes:
+
+Defaults:
+VehicleTracks=1		//Enable  Vehicle Tracks for Snow
+VehicleTrackDepth=1	//Enable Deep Vehicle Tracks for Snow
+PedTracks=1		//Enable Ped Tracks for Snow
+PedTrackDepth=1		//Enable Deep Ped Tracks for Snow
+
+added cars:
+80 definitions. (121-200)
+
+Changes from 3.1
+-Set model by name in Select model menu, for bodyguards/peds.
+-Thanks to Taazr, we can now delete the exteriors of the Apartment Buildings and Stilt Houses for a better view, MP maps should be enabled.
+-Again Thanks to Taazr, the missing props when MP maps are enabled is fixed. This will work at game start and when you load a save, but
+may not work whilst progressing on missions. All that is needed in this case is disable and then enable MP maps and the props will be back.
+-Added MP Customization menu in clothes menu. This allows customization of the 2 MP characters, several features, shape features and color and opacity things.
+The trainer can detect the Head Shape and color data, it can detect the several head features, but not their color or opacity. However once set by trainer,
+all of these options can be saved or loaded using the existing clothes save/load slots.
+-Added T-shirt overlays, Hair and some missing Tattoos in the Tattoos, Hair and T-shirt Overlays Menu (previously called Tattoos Menu).
+-Added cutscenes from DLC into the mission menu, cutscenes option.
+
+No ini changes
+
+Changes from 3.2
+-Added the three new Vehicles.
+-Added three new categories in Benny's mod menu (with load/save support of course).
+-Fixed issue with some MP apartments views (thanks to Taazr).
+-Snow has been fixed to work on the latest patch, thanks to Alexander Blade for taking the trouble to find the memory offsets.
+
+No ini changes
+
+Changes from 3.3
+-reverted back to hard coded mod categories in Vehicle mod menu, apparently some people had missing text.
+
+No ini changes
+
+Changes from 3.4
+-added 7 new vehicles, 2 new weapons and one new wheel type (in vehicle mod menu).
+
+No ini changes
+
+Changes from 3.5
+-ability to change yacht color, thanks to davidp027 for sharing the information.
+
+No ini changes
+
+Changes from 3.6
+-Yacht changes, added doors and the ability to set chrome or gold doors, added flags and made water waves smaller.
+-Two additional apartments in other teleports, interiors. 
+-14 new Vehicles.
+-3 new Peds.
+-8 new weapon components (Drum Magazine).
+-Added new T-shirt overlays
+-Added new menu Offices and Warehouses (MP Maps Needed) in other teleports menu.
+
+No ini changes
+
+Changes from 3.7
+-Fixed the "Office Themes" to be correct now.
+-Updated to support new patch, snow + reveal map now working again.
+
+No ini changes
+
+Changes from 3.8
+-Added Peds Menu, ability to spawn added peds, same principle as added vehicles. Support for clothes saving and bodyguard model select.
+-Added Weapons Menu, ability to spawn added weapons, same principle as added vehicles. Support for bodyguard weapon selection.
+-Added Vehicles can now also be selected in the bodyguard drive menu.
+-Added Time cycle modifier menu in weather menu.
+-Added snow particles when snow is enabled. 
+-Added 7 additional Peyotes (Thanks to _CP_)
+-Added Maximum Wanted Level in options menu, don't use any of the other wanted level options, because they will override this one.
+save settings supoport is included for Maximum Wanted level.
+
+
+Ini changes:
+Defaults:
+
+Max_Wanted=0		//Enable Maximum Wanted Level
+MaxWanted=2		//Maximum Wanted Level (1-5)
+
+added Added peds and added weapons section (at the end of the file, so you can easily copy paste it into your existing ini).
+
+Changes from 3.9
+-Support for latest patch (snow and reveal map should now work again)
+-Added 15 new Vehicles
+-Vehicles should not disappear 
+
+No ini changes
+
+Changes from 4.0
+-support for lastest patch (snow and reveal map should now work again, vehicles won't dissappear, recording UI global updated)
+-added 21 new vehicles
+-added 13 new peds
+-added 7 new weapons and one weapon attachment
+-added Halloween weather.
+-New Mp Biker teleport menu off other teleports menu.
+-added 25 timcycle modifiers
+
+No ini changes
+
+Changes from 4.1
+-remove fast motion from time menu
+-changed timecycle modifiers alphabetical
+-fixed name of Gang Burrito and put contender into SUV's, fixed name HVY BIFF
+-fixed bug with freeze weather.
+-fixed issue with chrome rims and color changing
+-added a bunch of overlays (tattoos, hair and t-shirt overlays)
+
+No ini changes
+
+Changes from 4.2
+-Fixed bug with unlimited ammo not applying to new weapons
+-added more overlays (tattoos, t-shirts, hair) they are now all in, and some t-shirt overlays (mpindependence) have been fixed as they never worked.
+-ability to choose an additional 35 license plates provding you have additional license plates installed, if not, they won't increase beyond what is installed
+
+No ini changes
+
+Changes from 4.3
+-support for lastest patch
+-added 24 vehicles
+
+No ini changes
+
+Changes from 4.4
+-fixed issue with MP vehicles disappearing on the steam version of the game, retail was working fine.
+-added some interiors from import/export in separate submenu off other teleports.
+-added 7 new timecycle modifiers
+-added import/export tattoos. 
+-added 6 new peds.
+-two additional added vehicles menus, taking the total up to 280.
+
+ini changes:
+
+Added 80 added car definitions.
+
+Changes from 4.5
+-Added Import/Export teleports, 60 car garages, mod garages and warehouse, all of which have customization options. 
+This also fixes the view of the some of the executive apartments from a few updates back.
+
+No ini changes
+
+Changes from 4.6
+-Fixed a bug with wanted level.
+-Fixed a bug with clouds and force weather.
+-Fixed Real Time duration and sync to system time to not interfere with the Television. 
+-The first two MP Biker teleports are now customizable. 
+
+No ini changes
+
+Changes from 4.7
+-Fixed 60 car garages, those are actually 20 car garages, three combined makes 60. The numbering scheme has been changed accordingly.
+-added Import/Export Warehouse basement, with pump customization.
+-MP Biker teleports changed with full customization options.
+-Swapped K-L Left/right indicator
+
+Ini changes:
+
+LeftIndicator=75	//Left Incidator
+RightIndicator=76	//Right Indicator
+
+Changes from 4.8
+-Fixed the view of the Executive Offices and the 60 Car garages.
+-Biker Warehouses are now fully customizable.
+-IPL loader in teleport menu.
+-Fixed a problem with cycle vehicle seats.
+-After a lot of requests, I have implemented a Cloud Menu (yes, yes I hope the whinging will stop :) ). Thanks to Quant, I took the values from his trainer.
+
+No ini changes
+
+Changes from 4.9
+-No clouds will now be permanent, will be saved using save settings.
+
+Ini changes:
+
+No_Clouds=0		//No_Clouds
+
+Changes from 5.0
+-weapons damage multiplier will again work for melee, blame R they added a new parm in between...
+-fixed a bug where some teleports in interiors would be wrong or would not remove certain IPL's.
+-the get all weapons function now also gets all weapon attachments. Both when run from the menu or using the RALT+NUM7 keybinding.
+-added several teleports locations for each yacht.
+-ability to set the yacht name. Sometimes if you get too close, the name disappears, no idea why.
+-you can use the radio in the yachts (total of 4 radios for each yacht), press E or LB on controller to switch on/off use Right Arrow/Left Arrow or Dpad Right/Left for station up/down.
+-Tv is also usable on the yacht, same controls as the radio.
+-Since I had to do the TV for the yacht, I added an enable TV function on the teleport menu, so TV's should work in apartments, go near the TV and enable the function on the menu (teleports, other teleports). 
+There are about 17 or so models on which the TV works, inlcuding the monitors in the heist rooms. You can spawn tv objects and enable the TV on them as well.
+-Apartment Radio, enabling this will make the radios work in various interiors. You can press E or LB on controller to enable the radios, many apartments have three different radios, most 
+other interiors have just one radio. Each one can be enabled and the station set (left/right arrow, or Dpad left/right on controller). Both the option itself as the state and station
+of each radio that is enabled will be saved when save settings is used. So that on each game session those radios will play when you are inside the interior and they will play the same station
+as they were when you used save all settings. The interiors that have radios are the 19 High end Apartments and the midrange and low end apartments and the high, mid and low end garages
+in the other teleports, interiors option,  the 5 upgraded apartments and the 10 stilt apartments in heist teleports, The custom suites, the Offices and warehouses, 
+all of the MP biker teleports (using 4 hidden stations for all of those) and the import/export teleports. 
+In total there are 101 interiors that have the radio enabled, for a total of 217 radios :) I have also added radios to the safehouses, they will work
+the first time you teleport, but might stop working as the game does stuff with those radios as well. They will work providing you use the locations teleport option in other teleports. 
+Also a radio has been added to other teleports, interiors, Bahama Mama's, in this case you cannot change the radio station and the radio is enabled when you teleport in.
+-ability to override the fix for infinite loop when dying as non player model, this is NOT saved when save settings are used because it can potentially get you an infinite loop, use with care.
+
+
+Ini changes:
+ApartmentRadio=0	//Apartment Radio
+OverrideLoopFix=0 	//override infinite loop fix 
+
+Radio stuff (this will automatically be added the first time the option is enabled and save settings is used)
+
+Changes from 5.1
+-support for latest patch.
+-added four new vehicles.
+
+No ini changes
+
+Changes from 5.2
+-support for latest patch.
+
+No ini changes
+
+Changes from 5.3
+-added support for the roof livery of the Tornado Custom, second option on the vehicle livery menu, any future vehicles with this kind of livery are automatically supported. The livery2 is also saved with save vehicle function.
+-saw that Wildbrick's add on plates are now up to 25 additional plates, so I have changed my code to have at least 50 additional plates supported by trainer. 
+-support for latest patch, so snow should work again
+-reveal map is now using a native, so not depended on game version anymore
+-added 19 new vehicles. 
+-added 2 new peds.
+-added 6 new weapons + their attachments + new weapon tints.
+-added teleport to gunrunning yacht and bunker (bunker is customizeable).
+-added gunrunning overlays (tattoos and badges).
+-some of the vehicle guns can be changed using the vehicle mod menu. 
+-added timecycle modifiers (20).
+
+No ini changes
+
+Changes from 5.4
+-Fixed issue with the new ammo types preventing firing the gun, now the clip gets filled when you enter ammo and also when you first equip the ammo type via the weapon attachment menu.
+-removed version check on the various other teleports submenus.
+-the silencer hotkey now also works for the new weapons
+-ability to enable Maxed Out weapons, by default it is back to disabled. In Ini, set MaxedOut=1 if you want maxed out weapons with all attachments.
+-fixed issue with some vehicle spawn submenus.
+
+Ini Changes:
+
+Defaults:
+MaxedOut=0		//Get all Weapons Maxed out 
+
+Changes from 5.5
+-Added Weapon Livery Colors.
+
+No Ini Changes
+
+Changes from 5.6
+-fixed issue with weapon tints and melee weapons.
+-fixed issue with setting ammo and the new ammo types.
+-fixed a few issues with weapons and change model, now livery color and new ammo types should work fine.
+-if you use get all weapons using keybind, this will also take the setting MaxedOut into consideration
+-added ability to quickly go to the second column on menus that have two columns. Num 9 to go to the second column, Num 7 to go back to the first. Can be set in Ini.
+-ability to save all weapons to weaponsx.ini (20 slots). All weapons, their attachments, tints, livery colors and Ammo are saved and can be loaded.
+Be aware, this shitty game has a problem with the new ammo types, and require waits for the correct ammo to be applied. I have no idea why, in any case, I am not prepared
+to wait my code for any longer than strictly necessary. So if any of those new 6 weapons, using the new ammo types have 0 ammo instead of what it should be, either 
+set the ammo manually, or..... load the slot again, as that seems to fix the issue. I have no idea why, it simply executes the EXACT same code.
+
+ini changes:
+
+Keybindings
+MenuKeyQF=105		//Menu Second Column, Default Num 9
+MenuKeyQB=103		//Menu First Column, Default Num 7
+
+Changes from 5.7
+-fixed an issue where when changing characters, the no helmet option would not work.
+-added a 2 second wait to fix the above issue...
+-added some missing weapons to the drive by bodyguards weapons. Be aware, the attachments for the new weapons have not been updated, this also applies to the 
+normal weapons section, I cannot be bothered atm, they work, and that's all that counts...
+
+Changes from 5.8
+-removed 2 second wait when changing characters, The no helmet should now also work, there was a problem with weapons leading to the crash people were reporting, should now be fixed.
+-added 19 new Vehicles.
+-added one ped (u_m_y_smugmech_01).
+-added 2 cutscenes.
+-added smugglers teleports in other teleports (the hangar).
+-added overlays for mpsmugglers and mpairraces. 
+
+Changes from 5.9
+-Fixed crash in Hangar teleport menu.
+-Fixed (hopefully) crash with all weapons and model changing.
+-Ability to change the color scheme of the hangar
+-The Hangar Living Quarters can now be enabled and or disabled. 
+
+No Ini Changes
+
+Changes from 6.0
+-Support for Doomsday DLC:
+-Added 29 Vehicles.
+-Added 10 Peds.
+-Added 7 Weapons (including full customization).
+-Added 13 Cutscenes.
+-Added 37 Time Cycle Modifiers.
+-Added 60 tattoos (30 female/30 male).
+-Added Doomsday teleport menu, in other teleports. Not all teleports are in, as I need scripts to find out the interior props.
+-I started with the ability to save some interiors in the ini, only two biker teleports current work, but I will over time add others.
+The supression of the recording UI when using dpad down on the controller does not work, again I need access to the scripts to find the new global.
+
+No ini Changes
+
+Changes from 6.1
+-Fixed issue with unlimited ammo and the new weapons
+-Fixed the Dpad Down bringing up the character selection screen, it will however still show the recording UI, again until I have decompiled scripts this cannot be fixed.
+-Added teleports to Tunnel, Base and Silo all part of the Lab interior, just to break it up.
+-Added the Player Facility and Avenger interiors in the Doomsday teleport menu, however, not fully functional because I again need decompiled scripts. 
+
+No ini Changes
+
+Changes from 6.2
+-The Player Facility and the Avenger Interior can now be customized, with the ability to save to ini,
+when you subsequently re-teleport (including with another game session) you will revert to the saved interior.
+-The IPL loader, now is a IPL/Interior Prop Loader, allows you to add interior props to interiors yourself and load IPL's.
+-The Recording UI is now surpressed when using Dpad down when using the menu.
+-Added 80 more vehicle save/load slots. Now 200.
+
+No ini Changes
+
+Changes from 6.3
+-The change model function crashed for some people, whilst I have never found anything wrong in my code, I have now changed the way the weapons
+are being retained. This seems to fix the problem and allows me to have a single function instead of duplicate functions.
+-All the Biker, Import/Export, Gun Running, Smugglers and Doomsday Teleports that are customizeable can now be saved to the ini.
+
+No ini Changes
+
+Changes from 6.4
+-Added object spawn unlocker from GTAMultiplayer Team into trainer.
+-Added All objects to trainer, replaced objects 1 -objects 6 with two Object list menus that will allow you to select all objects (objects 1 - objects 44). 
+Be aware, many objects simply don't work, but they are all selecteable.
+-Added 4 Different MOC teleports in the Gunrunning teleport menu. These are using objects, thanks to Nkjellman for providing the objects and coordinates.
+-Added 100 additional Vehicle Save slots.
+-Added 40 additional Added Vehicle slots.
+-Weapon Damage Multiplier can now have negative values.
+Several Airbreak changes:
+-Renamed Airbreak Speed Menu to Airbreak Settings Menu.
+-Enable Vehicle/Player Invisible in Airbreak Settings Menu, when enabled both Vehicle and Player will be invisible when airbreak is enabled. 
+-Enable Vehicle/Player No Collision in Airbreak Settings Menu, when enabled both Vehicle and Player will have no collision when airbreak is enabled.
+-Both options will be saved when save all settings is used. 
+-Ability to enable airbreak using controller, hold X and pres LS.
+-Airbreak controls will not work if the menu is on screen.
+
+ini Changes:
+Keybindings:
+ControllerAirbreak1=203		// Default X
+ControllerAirbreak2=86		// Default LS
+
+Added Vehicles:
+40 additional slots
+
+You can just retain the ini, just copy the two lines under keybindings changes over to your existing ini (under keybindings), which is optional if you don't intend on changing it anyway. 
+You can also copy the  40 additional added vehicle slots, copy from Enable281=0 until DisplayName320=Car 320 over to your existing ini (under added cars),
+again optional if you don't use those slots. 
+
+Changes from 6.5
+-added Infinite Stamina in options menu 1. If enabled it will get saved when save all settings is used. 
+-added Restricted Areas, enabled by default, if disabled, you will be able to visit the prison, fort Zancudo and the Airport without being attacked,
+will get saved when save all settings is used. 
+-Fixed an issue with the Vehicle load/save slots, it was trying to retrieve the full car name (new method), but lead to a crash when the model was not in the game files, this has now been corrected.
+
+No ini Changes
+
+Changes from 6.6
+-Added 40 save clothes slots for Player and 40 for Bodyguards/Peds
+-Ability to add or remove Crew Emblems to Vehicles, thanks to Mafins for providing me with the offsets. The emblems are also saved when you save the vehicle.
+Be aware not all cars are definied, The offsets for the Emblem are taken from the Car mod shop script, and R has definied a total of 302 vehicles there, all the others get
+the emblem applied on a default spot, which might not at all be visible. Furthermore R apparently made 4 mistakes, as the Surfer, Surfer2, Avenger and Autarch don't display the emblem.
+-Again thanks to Mafins who pointed out a single native, I now have separated controller and keyboard support, this means for instance
+that enabling controller support, will not suddenly enable the arrow keys working in the menu.
+-Ability to change the office text, font and color for the four offices. And to save these plus the selected IPL to ini.
+-Ability to change the Biker Clubhouses text, font and color for the two Clubhouses. And to save these to ini.
+-Various elements for the player facility:
+-The Table of the Orbital Cannon can be enabled, if enabled the table will cycle through different map positions every 7 seconds.
+-The screens of the Orbital Cannon can be switched on.
+-Big screen can be enabled (which will disable the Boot screen) and you can select which image it will display.
+-Boot screen can be enabled (which will disable the Big screen), it will cycle through the boot screen and a black screen.
+
+No ini Changes 
+
+Changes from 6.7
+-added 280 additional added Vehicles slots, allowing 600 in total. However you don't need to define them in the ini anymore, with help 
+from IKT, I have code running that will detect add on vehicles, the first 600 of them will be added to the added vehicles menu 
+automatically sorted by Displayname (including the make name). The added cars section in the ini can therefore be deleted, it will not do anything anymore.
+-ability to disable vehicle weapons, in weapons menu, will be saved if save all settings has been used.
+-The Livery option in Benny's Mod menu has been moved to the Livery Menu directly off the Vehicle Options Menu 1.
+-The Vehicle Components Menu has been moved as an additional category in the Vehicle Mod Menu.
+-If you set a timecycle, it wills stay active until you clear it again in the timecycle modifier menu.
+
+Ini Changes:
+
+Deleted added cars section, for existing inis, you can either delete it as well or leave it, it does not really matter.
+
+Changes from 6.8 (Or for the people that don't understand: What is new in 6.9..)
+-Ability to disable auto-detect of add-on vehicles, which gives you the ability to define them in the ini again (you can re-use your old added cars section from previous ini), 
+this means that the text displayed on the Added Vehicle menu, and the text displayed for each Vehicle save slot for add-on vehicles, will come from the displayname in the ini.
+if autodetect is switched on, both will come from the game itself. To enable this, you will need to set DefineAddedVehiclesInIni=1 in defaults section of the ini.
+The default remains for autodetection of add-on cars, which means there is no need to set anything up in the ini.
+-Improved the auto-detect of add-on Vehicles, for Vehicles, if the vehicle author did not bother to set proper names, I now just get the modelname (thanks IKT).
+-Search function added for: Vehicles, Player Models, Objects and Animations. The search results window will allow you to spawn any of the found Vehicles, Player Models Objects or Animations.
+I have used some of IKT code for search, so credit should go to him, thanks !
+-Thanks to the transmet team, who published a much bigger animation list, I have now replaced mine with the list from them, bringing 105186 animations into the trainer. 
+Since there is a search function now, you should use that, rather then the animation options, which will still work, and will now cross all 105186 animations.
+-Added the ability to also choose Weapon Components and Color and Livery Color for the MKII weapons in the various Bodyguard/Ped Weapon Menus. 
+-Added SNS mkII, Heavy Revolver mkII and Double Action Revolver to Bodyguard/Ped Driveby Weapons.
+-Removed the restriction to change wheel color of chrome wheels. 
+-Ability to set additional props for the four offices, two biker clubhouses and the facility. Of course these will be saved when save interior to ini is used.
+-Privacy Glass for the Facility is another option you can enable. Again will be saved when save interior to ini is used.
+For the offices and biker clubhouses, you can enable the additional props under the "set name menu", for the facility this can be done in the facility menu.
+-Turns out I missed about 15.000 objects, so they are also added to trainer, making a total of 80709 objects. New menu added, Object List 3. 
+I believe I now have ALL objects of the vanilla game into the trainer.
+
+ini Changes:
+Defaults: DefineAddedVehiclesInIni=0 
+Added Cars re-added to ini, this is only applicable if you choose to disable autodetection of added vehicles, if you want to use autodetection, don't replace or copy anything to your ini.
+
+Changes from 6.9
+-Privacy Glass for the facility Bedroom.
+-The Tropyhs props in the facility did not change when color of the facility was changed, this has now been fixed.
+-Modern Office in Hangar did not load the props, now fixed. 
+-Support for secondary Hair Color in the MP Models Customization menu.
+-Avenger was missing a interior prop, fixed.
+
+No ini Changes.
+
+Changes from 7.0
+-Vehicle Damage Multiplier, will also be saved when save settings is used. 
+-Ability to save Bodyguards/Peds, either the last spawned Bodyguard/Ped (or selected Bodyguard/Ped) or save all spawned Bodyguards/Peds to a file.
+the weapons, clothes, the type (Bodyguard/Ped/Attacking Ped or driver) and the position are saved, as well as the task when Peds are concerned. 
+-Voices and speeches are now mapped, this means that all the voices have relevant speeches. Total of 801 Voices and 50831 speeches. 
+Big thanks to Alexguirre who wrote a program to extract the speech names. I am using his list and have added a few more voices from latest patches
+those are found under Select Voice 4, Select Voice 1 -3 is using his list. 
+-There was a bug in the select current drive-by and select current Bodyguard/Ped weapon, this has been fixed.
+-Another bug fixed, when setting wheel color, with custom colors, custom colors would not save when save vehicle was used.
+-Yet another bug fixed, saving bodyguard default weapon was not correct.
+
+No ini Changes.
+
+Changes from 7.1
+-Ability to open the safe and gunlocker in the offices. 
+-The MOC is now fully customizeable, setting Bays and colors. And save to ini.
+-Serveral little problems with Yachts have been fixed, one of them was a direct result of the Yacht text, which messed up colors of the yachts. 
+-Starboard and Port text now also include the country name.
+-Ability to enable white text instead of black text for the Yacht Name.
+-Ability to save spawned yachts. When you return, the settings of saved yachts will be retrieved, so all you need to do is select the yacht and select spawn. 
+-save last spawned bodyguard/ped and all bodyguard/peds now save wakstyle and voice if it was set and load it.
+-all spawned objects will be freezed (or made static) unless dynamic objects is enabled. 
+
+No ini Changes.
+
+Changes from 7.2
+-added a third teleport menu page and a third save teleport menu page, 30 additional slots for teleporting and saving. 
+The first 11 teleports are by Rennie.
+-ability to make the specific Bodyguard/Ped leave.
+-ability to save last selected timecycle modifier to ini, so that it will load it on next game start. 
+-Increased range for both Torque and Engine Power multiplier. 
+-some small changes to MOC.(Turret Controls were missing, doors were wrong, doorblocker repositioned).
+-ability to use club emblems in the biker clubhouses.
+-the club emblems selected for Club House 1 will also be used in the facility.
+-there IS a way to have the club emblem in the Facility and the two Biker Clubhouses but you will have to do it manually:
+download your clubemblem from social club (save as), start openIV, edit mode, open Grand Theft Auto V\update\update.rpf\x64\textures\script_txds.rpf,
+right click, choose new Texture dictionary (ytd), make sure the name is set to crewemblem. Then open crewemblem.ytd and import your crewlogo, making 
+again sure the name is crewemblem. Both the dictionary and the file name iside of it should be called crewemblem. Now add the following line 
+to trainerv.ini under the defaults section: crewemblem=1. If you followed the instructions correctly your crewemblem (or whatever you have put 
+inside the dictiorary) will now be shown in the facility and can be selected in the two biker warehouses. You might want to extract the dictionary
+and save it somewhere, because after each patch, it will be gone, and has to be reimported into the rpf file. 
+
+Ini Changes:
+
+TELEPORT SECTION:
+
+Teleport7Slot0] - [Teleport9Slot9] However, you don't need to replace the INI as those teleports have also been programmed into the trainer. 
+
+Changes from 7.3
+-the saved vehicle function will save the last spawned vehicle, if you are not in a Vehicle. This is usefull for trailers, because when saved, all vehicle related functions should work without having to be in it. 
+-compatibility for latest patch, added 16 vehicles and a few objects. That was all that was added by R, no other new content is available. 
+-added 40 additional added weapons slots. 
+
+No ini Changes.
+
+Changes from 7.4
+-ability to load the first weapons slot when the game loads.
+-snow works again. 
+
+Ini changes:
+WeaponsAutoLoad=0 (change to 1 to use weapons auto load). Again NO NEED TO CHANGE THE INI, just copy the line if you need it, or leave it out when you don't.
+
+
+Changes from 7.5
+-compatiblity with latest patch (snow and recording UI will work). 
+-added 14 vehicles, 11 have crew emblems.
+-added 1 weapon.
+-added 49 peds (After hours peds on menu).
+-added 18 voices and all relevant speeches.
+-added 1307 objects (Object List 3, Objects 55).
+-added 8 cutscenes.
+-updated list of timecycles. 
+-added T-shit overlays (2x63).
+-added new teleport menu in other teleports, with fully customizeable interiors for the After Hours update. 
+-N for next track does not work anymore, as Rockstar deleted the native.
+
+No ini changes. 
+
+Changes from 7.6
+-Added Privacy glass in the Nightlcub Office.
+-Ability to dim the Nightclub Office Lights.
+-Ability to open the Nightclub Office Safe.
+-Ability to add smoke on the Nightclub Dancefloor.
+-Ability to enable the Thropies in the Nightclub Office and Safe.
+-added 89 scenarios, which means that list is now updated and has all available scenarios. 
+-Thanks to doppelblind the Underwater Pickups have all been named.
+-Ability to change the Vehicle Audio (Engine), Vehicle options, second page, last option, you can either select the Vehicle audio from a list,
+or simply use the search. Yes the usage of the function will change the radio station, and I have decided to leave the game do it's own thing...
+-Added a few Walkstyles, at the end of the list. 
+-Ability to open and close the bomb bay doors in Vehicle doors and windows menu.
+-Rockstar is using a native to disable the new radio station from being displayed at the radio wheel, and preventing the usage of the station,
+but I am using the very same native to enable the station again, so it will be in the radio wheel. I actually also forgot to include the 
+blonded station in the default radio function, this has now been corrected. The Los Santos Underground station is also included in the default radio function.
+
+No ini changes.
+
+Changes from 7.7
+-Thanks to Doppelblind, the 8 underwater pickups that become available after the Minor Turbulence mission are added to the teleports, pickups menu.
+-Thanks to MARK2580 I have added all the After Hours animations in the animations menu. (about 6300 animations, mostly dance related).
+-Several improvements for the Nightclub. It appears smoke=dry ice ! so removed the smoke option, and put the smoke under the dry ice option.
+-Screens in the nightclub now work, changes depending on DJ and clubname.
+-Spotlights now work, however, I do not (for now) control them like the game does. 
+-Fatal Error regarding a new native has been solved for people not on the latest patch.
+
+No ini changes.
+
+Changes from 7.8
+
+-Small improvements to the Nightclub and Garage/storage.
+-The projector type is now being saved when save interior is used in the nightclub
+-Ability to disable LSUR, add LSUR=0 under defaults section of trainerv.ini.
+-the Search results for Animations now also work when you save last played animation.
+-Ability to Display the map of the prison and Fort Zancudo on the map, options second page, will also be saved with save all settings.
+
+no ini changes. 
+
+Changes from 7.9
+-New teleport in After hours teleport, the Nightclub under construction, which is the way the interior looked in the beginning. 
+-Ability to use the ceiling lights in the Nightclub.
+-Ability to change the colors of the spotlights and ceiling lights, 4 combined R colors and 455 RGB colors. Thanks to JAYT for finding the native that does this. 
+-Ability to randomize the colors. 
+
+no ini changes.
+
+Changes from 8.0
+-Ability to rotate the Spotlights
+-Slapped a DJ in, thanks to Jedijosh920 for providing me with the coords and the animation
+-Changed the ceiling lights a little bit.
+-Slapped in some chairs in the nightclub office.
+
+no ini changes.
+
+Changes from 8.1
+-Ability to enable Dancers, choice between three styles, and either two girls, two boys or a boy and a girl. 
+-Ability to enable Employees, this will spawn three bartenders, two guards a toilet bloke (do NOT tip him) and an entrance lady. 
+the customers I leave up to your imagination, you have a ped spawner in trainer, where you can slap in as many customers as you want..
+-The TV Screens now changes color automatically. 
+
+no ini changes. 
+
+Changes from 8.2
+-The music now changes when you change DJ's in the nightclub. I hope I matched the right music with the right dj...
+-The nightclub under construction now has no music playing.
+
+no ini changes.
+
+Changes from 8.3
+-Someone pointed out to me that the lightrigs for Dixon and Solomun were swapped, fixed. 
+-The rotation of the spotlights worked well for up and down, not so well for left and right, this is now also fixed. 
+-I could not get the Screens in the garage/storage to display whatever was on the nightclub tv's, it would load for less than a second and be replaced by normal tv, I have 
+removed this, so that at least you can hear the nightclub music in the storage area. 
+
+no ini changes. 
+
+Changes from 8.4
+-Ability to use indicators with the controller (right stick left/right), this can be modified in the ini, by adding CLeftindicator or CRightindicator with the relevant controler values. 
+-Changed the way I call the menu for the Nightclub and the facility. If you are already in the Nightclub or in the facility, I call the menu, but not set the position, this due to the size of the interior
+-Removed Next song on vehicle menu, and removed it when pressing N. R removed the native, whilst on my game this did not lead to a crash, some other people reported crashes, so I now removed it completely.
+-Changed some code related to auto-detect of add-on vehicles and searching for model names (thanks IKT !)
+-Changed the way I detect num4/num6 navigation, hopefully this solves issues with other mods. 
+-Freeze Game, in time menu.
+-Max Tune Vehicle, in vehicle mod menu.
+-Various small fixes. 
+
+no ini changes.
+
+Changes from 8.5
+-Yankton now has traffic and will display the relevant map, due to this, there is code that will unload Yankton the minute you are elsewhere. 
+-Fixed an issue where any of the interior maps wouldn't display anymore. 
+-Added support for added colors in the Vehicle color menu, also for wheel colors and pearls, futhermore wheelcolors now have all possible colors.
+-Added Color id display in the Vehicle color menu.
+-You can now use all colors as Pearls. 
+-Due to many complaints about the controller indicators, I have decided to disable those by default. To use them, add CRightIndicator=6 and CLeftIndicator=5 to the keybindings section of TrainerV.ini.
+
+no ini changes.
+
+Changes from 8.6
+-Infinite Boost, vehicle options, will be saved when save settings is used. Hold X or E (depending on the vehicle).
+-Fixed an issue when you search for vehicle engine sound.
+-One thing that always kind of bugged me was the removal of the native that allows for sitting. jedijosh920 sitting mod allows this, 
+but it only supports a few chairs or benches. So I have borrowed the animations from this mod (thanks jedijosh920), but the trainer will support
+208 chairs, benches, stools and busstops. Options menu 2nd page, or L+numpad 0.
+
+ini changes:
+
+keybindings:
+
+SitKey1=76		//Sit Key Default L
+SitKey2=96		//Sit Key Default Num 0
+
+Changes from 8.7
+-Fixed small issue with Sit down function.
+
+no ini changes.
+
+Changes from 8.8
+-Compatibility with latest patch.
+
+no ini changes.
+
+Changes from 8.9
+-Updated for latest patch.
+-Added 46 Vehicles.
+-Added 4 Peds.
+-Added 3 Weapons.
+-Added 2 Cutscenes.
+-Added 951 Objects.
+-Added two tattoos and 250 shirt overlays.
+-Added 39 Crew Emblem offsets. 
+-Added 5 teleports, fully customizeable. Arena War Teleports off the other teleports menu.
+-Changed attached objects to player and ped, no collision when attached.
+-Support for the Xenon Lights Colors.
+
+no ini changes.
+
+Changes from 9.0
+-added 3 new horns.
+-did a complete animation extract, I believe all animations are now in trainer. No duplicates. Total of 138.679 animations.
+-added Christmas Decoration in Nightclub and in the Terrorbyte.
+-fixed the VIP lounge. Also added the Spin the Wheel table, just for show.
+-added Biker Mission wall in the biker clubhouses, again just for show.
+-fixed bug where the 3 new weapons were not included with the infinite ammo,no reload.
+-various small fixes.
+
+no ini changes.
+
+Changes from 9.1
+-Ability to set Crowd Noise in Arena.
+-Ability to change the appearance of the Arena whilst inside the Vip Lounge.
+-Working "Spin the Wheel" in the Vip Lounge.
+
+No ini changes.
+
+Changes from 9.2
+-Added support for Proximity Mines (I am using part of the code from drp4lyf, thanks) and updated it 
+to support the five different Proximity Mines that were released in Arena War. There are 34 vehicles that support the five different proximity mines
+and 10 that support the "gunrunning" mine, apart from the 6 release in that update, this includes the Khanjali, and the custom variants of the Mule, 
+Speedo and Pounder.
+You need to supply the vehicle with the mines yourself using the vehicle mod menu. Press N or D-pad right to deploy. Does not work when the menu is open.
+-Adjusted Prizes for the Arena War Wheel.
+
+No ini changes.
+
+Changes from 9.3
+-Ability to set the mod kit in Vehicle mod menu, only applies to a small amount of vehicles, in fact, only 2 vanilla vehicles have more than one modkit, this is for the vehicle modders that can't make 
+due with one modkit :).
+-Thanks to Eddlm all vehicles can now have the same nitro effects that the arena war vehicles have, Vehicle options second page, Nitro, will save when save all settings is used.
+To use press the same buttons as for the arena war vehicles, X on keyboard or A on controller. Does not show the Particle effects on vehicles without an exhaust. 
+-Whenever you change cars, fall off your bike, or jump out of your car, the arena interior will "disappear". If this happens, I teleport you back to the pit. 
+-various small fixes.
+
+No ini changes.
+
+Changes from 9.4
+-Ability to replace the special ability bar with a bar that works both for boost (nitro) and shunt boost, if nitro is enabled, this will replace the special ability bar
+with the bar related to nitro. To use this functionality, add nitro1=1 to defaults section of trainer ini. By default the special ability bar is not replaced.
+-Ability to use mines on all vehicles, by default this option is disabled, and same as with nitro, it will only work on vehicles that have the relevant mod applied 
+in the Vehicle mod menu. You can enable this option (vehicle options menu, page 2) All Vehicles have mines, and set the type of proximity mine, and now all vehicles will
+have mines. This option will be saved when save all settings is used. Might not work perfectly on all vehicles. 
+-Have tried to get more usefull mod slot names in the Vehicle Mod menu from the game, this does not work all the time, in that case I display a default value for the mod slot.
+
+No ini changes.
+
+Changes from 9.5
+-changed they way I display mod text labels in Vehicle Mod Menu and livery menu.
+-added proper names for the tattoos, also added a few missing tattoos. 
+-added proper names for the T-shirt overlays.
+-the T-shirt overlays are also working for the three player characters.
+-ability to change the texture of objects, edit specific objects. This will work on only a few objects (hint stunt objects mostly).
+-various small bugfixes. 
+
+No ini changes.
+
+Changes from 9.6
+-Since people have found a way to add radio stations, I have updated the way I detect those stations, so that any added stations can also be used to lock the radio to that station.
+-Next Song (N) is back ! Thanks to Unknown who provided me with code to re-implement the skip to next song function.
+This means the key to deploy mines has changed from N to L+num1.
+-Option to display Artist and Track each time you use N to change the station. This is optional, add DisplaySong=1 in defaults section of the ini.
+-On some people's computers the new way of getting livery names led to a crash, so I added an additional check to prevent that from happening.
+
+No ini changes. 
+
+Changes from 9.7
+-The option DisplaySong will now also work when a new song is played on the radio, not just when you press N for next song.
+-Compatiblity with latest patch (snow, despawn, recording UI).
+-Fixed a bug with Nitro not applying.
+
+No ini changes.
+
+Changes from 9.8
+-Ability to disable radio stations on the fly in game. When you use save all settings, this will be written to the ini, and the next time you start the game,
+those stations will not appear on the radio wheel. This will NOT work for three stations: LSUR, the Talk Radio and Self FM.
+-Vehicle blip will be hidden once the player is in a particular vehicle, when vehicle blips are enabled. 
+-Ability to display an ingame timer, options menu 2nd page, Timer Menu. Colors can be changed in the same way as all the other display colors, a few menu items up. 
+-Compatiblity with latest patch (mpvinewood).
+-Added 22 Vehicles. The sports category submenu has been splitted in two, as it became very crowded with 7 new additions. 
+-Added 21 Crew Emblem offsets. 
+-Added 5 teleports, one fully customizeable. Vinewood Teleports off the other teleports menu.
+-Added 41 Peds.
+-Added 16 Cutscenes.
+-Added 20275 animations.
+-Added 2024 Objects.
+-Added 46 Timecycles
+-Added 35 Voices and 3680 speeches
+-Added 130 Overlays (Tattoo, T-shirts Hair).
+
+No ini changes.
+
+Changes from 9.9
+-Fixed the media room door not changing color. 
+-Fixed the conference room door not opening, my R what crap, took me quite some time.
+-Fixed the Party  Bar thing not always working.
+-Added Titles on the Arcade Screens. 
+-Ability to Set Decorations in the Casino Penthouse, those will of course also be saved when save to ini is used. All 190 locations are in, however, the offered objects are 
+based on video's I have watched. I assume R offers certain objects based on the color of the Penthouse, I have choosen to just offer a list per location based on 
+the video's I watched, this is as good as it gets. 
+-The wall screen at the office works.
+-Ability to open the safe and gunlocker in the office.
+-Ability to enable or disable the clutter in the Penthouse. 
+-Ability to enable or disable the "After Party mess" in the bar.
+-The big screen in the media room works with internal trainer TV system.
+-Added a lot of missing walking styles (thanks to InfamousSabre). There are now 561 walking styles in Trainer.
+-Change the Vehicle Sports 2nd menu, it can now be invoked from the sports menu, similar to the added vehicle menu.
+
+No ini changes
+
+Changes from 10.0
+-changed the decoration choices, now instead of being close to what the game does, I now offer ALL objects in a certain category, except for paintings,
+I kept the choices consistent with the video's I watched, all other decorations offer all objects in their category. For paintings, I did change two locations
+which will have all available paintings, those are the location both left and right from the lounge doors, in the hall way.
+All objects are now in. 
+-Doubled the number of supported added vehicles, trainer now supports 1200 added vehicles. 
+-Added screens at the casino's inside track. 
+
+Ini changes:
+
+Added the 600 additional added vehicle slots for the poor souls that manually define them in the ini,
+no need to change your ini if you don't, and if you do, copy Enable601 to Displayname1200 lines 
+back into your existing ini. 
+
+Changes from 10.1
+-Added 160 added ped slots, taking the total to 200.
+-the monitors and big screen on the inside track of the casino are now optional, in fact, they are disabled by default
+to enable them, set Casinoscreen=1 in defaults section of the ini file. Apparently it messes up with certain mods installed.
+
+Ini changes:
+CasinoScreen=0 in defaults
+added peds: added slots number 41 to 200
+either don't replace ini, or copy the changes over, no need to replace the ini!
+
+Changes from 10.2
+-Compatiblity with latest patch
+
+No Ini changes.
+
+Changes from 10.3
+-Support for latest patch.
+-Added 20 Vehicles. 
+-Added 17 Peds.
+-Added 3 Weapons.
+-Added 9 Interiors, no customization yet, this will come later. MP Heist 3 teleports.
+-Added 22 cutscenes.
+-Ability to enable the betting screens and the casio screen in the casino.
+Objects, Animations, voices and other stuff will come later. 
+
+Changes from 10.4 
+-fixed versioning problem for despawn vehicles and recording UI. Scripthook is incorrectly reporting version 54 and 55. 
+
+No Ini Changes.
+
+Changes from 10.5
+-Added Racing Wheels.
+-Added JB700W in mine system.
+-Added 15 Crew Emblem offsets.
+-Added 10680 animations.
+-Added 2955 Objects.
+-Added 47 Timecycles
+-Added 23 Voices and 1959 speeches
+-Added 138 Overlays (Tattoo, T-shirts).
+-Ability to Change the Arcade (+ Planning Room) and the Casino Vault. 
+-Added a fourth Teleport and fourth Teleport Save page. content is the same as page3.
+-Auto clean, new option for the vehicle god mode.
+
+No Ini Changes.
+
+Changes from 10.6
+-Ability to place additional arcade machines in the Arcade.
+-Screens work in Arcade, ability to change channel.
+-Changed timecycle modifier for the Arcade teleport.
+-Working Jukebox, using the trainer's built in detection for Radio stations (meaning add-on stations will work on it too). Station will 
+be saved when you save the interior.
+-Changed the Apartment Radio function to also use the built in detection, meaning add-on stations will now work on all apartment radios.
+-Added Two Radio Emitters for the Casino Penthouse, they work without having to enable apartment radio. One is at room in front of the bedroom,
+the other in the bar, near the Spa entrance. Stations will be saved when you use save interior.
+-Added Snow Theme for Penthouse Office and Casino Screens.
+-Added 200 additional Vehicle Save/Load slots, bringing the total to 500.
+-Fixed Ceramic Pistol's extended clip not applying.
+
+No Ini Changes.
+
+Changes from 10.7
+-I replicated the way you can customize the arcade machines, all 35 slots are in each slot you can choose whatever machine 
+you want, just like in Online. I did lift some of R's restrictions, so it offers more customization.
+Removed the Arcade set as it became useless because of the above, option replaced by a Xmas Tree :)
+-Added Xmas trees in the casino
+-Added the three new xmas decorations at various locations in the penthouse.
+
+No Ini Changes.
+
+Changes from 10.8
+-Added Fortune Teller door in Arcade.
+-Changed the no cars function, I just remove all cars now. 
+-Changed the no police helicopters to use a native instead of deleting the actual choppers. (Thanks PNWParksFan).
+-Added Casino exterior teleport to MP Vinewoods teleport menu.
+-Ability to control the radio in Casino, all stations (including the hidden Casino Station), go to the front desk to enable/disable or change stations, will be saved when saved interior is used.
+-Added hidden Casino Penthouse radio station when you use the radio in the Penthouse Bar.
+-Ability to control the radio at the Casino Roof. (All Stations including the hidden Casino Station). Go to the bar to enable/disable or change stations. 
+-Added five hidden stations to the Arcade Jukebox. 
+-When you enable the Arcade Jukebox, there will also be a radio in the planning room (near the vending machine), same stations as the Jukebox, ability to change stations.
+
+No Ini Changes.
+
+Changes from 10.9
+-updated for latest patch.
+-small fixes to the apartment radio.
+-added several radios to the apartment radio.
+-vehicles with certain liveries will spawn using the right livery. 
+
+No Ini Changes.
+
+Changes from 11.0
+-Support for 1868.4 (Epic games) 
+-this has been tested to work with the openhook, with Rage in combination with asisupport and with a hook made by kenny wall which I would recommend
+as the native support is probably best in this hook: https://mega.nz/folder/X84UwS7a#WoDgLYaQHNed-IX7ETStCA
+-For full support, one needs to wait for Blade to release his hook for this version, if something does not work on either of the three alternatives hooks, not ask me, I fully support Blade's hook..
+-A few small fixes, for people that don't like the No Vehicles funtion deleting spawned vehicles, enable vehicle blips, or do not use the function.
+
+No Ini Changes.
+
+Changes from 11.1
+-Few small changes related to the yachts, which makes them work correctly even if Blade's hook is not used. 
+-Added maps for the spawned yachts, and thanks to Alex 106 (I borrowed the coords from your script) 
+I added maps for the Aircraft Carrier, the Heist yacht and the Gun-running yacht. The spawned yachts will work only when spawned, the rest only when the option show zancudo and prison is enabled.
+
+No Ini Changes.
+
+Changes from 11.2
+-Added ability to manually enter weapon components in game.
+-Added ability to manually define weapon components for added weapons, ini addedweaponcomponents See the provided examples, total of 200 components.
+-Fixed some issues with spawned vehicles disappearing when no cars was enabled. When no cars was enabled, and you would spawn a vehicle without entering it automatically or when
+you loaded a saved vehicle, the vehicle would disappear within a few seconds. I have implemented a system where those cars are simply persistent. Once you spawn a new car, or when you
+load a new saved car, the previous will be made "unpersistent" and will disappear just as normally. When you do not use the no cars function, or when you enabled vehicle blips (which means 
+all vehicles are presistent) this has no effect. 
+-fix vehicle will now also extinguish any fires. 
+-added the Director Selector (trailer) in teleports menu.
+
+Ini Changes:
+Added Section addedweaponcomponents at the bottom of the file, just copy to your existing ini, or if you do not plan on using it, leave it.
+
+Changes from 11.3
+-added 15 vehicles
+-added two teleports
+-adjusted for latest patch
+
+No Ini Changes.
+
+Changes from 11.4
+-changed Nitro to have boost. The nitro works a little different, you hold X and as long as you hold it Nitro will work, release and it stops.
+-added new wheel category (Street Wheels).
+-added 13 vehicle emblems. 
+-added 552 objects.
+-added 2 Arcade machines.
+-added 2 trophies in Arcarde.
+-added 35x2 T-shirts.
+-added 2 Voices and 186 Speeches.
+-added 110 animations.
+-added 7 Timecycles.
+
+No Ini Changes. 
+
+Changes from 11.5
+-added new tuning category Louvers/Snorkels in vehicle mod menu (Benny).
+-changed Nitro again, to be more like how it worked before, it is still not perfect, but it will have to do for now, 
+you engage with pressing x (not holding) and disengage by pressing x again or when it runs out. Sound is back.
+-ability to enter space and - when entering ped names....
+-No Trains, will be saved to ini
+-Alternative no cars, put nocars2=1 in defaults section of trainerv.ini, you still need to enable no cars in game. 
+-removed the MP summer teleport page, as the yacht has been added to the yacht teleports as the 37th yacht, full support, just like the other yachts.
+
+No Ini Changes.
+
+Changes from 11.6
+-Fixed the external map and interior maps for the 37th Yacht.
+-Fixed a problem with the Yatch Tv's.
+-Added radio near the Jaccuzi, on the bow, near the bridge and on the second deck, for all 37 yachts. Also the radio state and station is saved when you select save yacht to ini.
+-Fixed a tiny problem with Jacuzzi teleport position when the Orion Yacht was selected. 
+-Added 10 more added Vehicle pages, bringing the total to 1600 !
+-Added 3 more Teleporting and Teleporting Save Menu pages, you can now save up to 210 teleporting locations.
+-Trainer will be compatible with latest patch (1.0.2060.1).
+-Ability to spawn cars fully tuned, option on the second vehicle options page, will be saved when save to ini is used.
+-Changed the Vehicle Spawn Keys, There were already 12 vehicle spawns, (LALT+A and so on) which would allow you to assign a specific vehicle model to it,
+I have added 13 more which will load Vehicle save slot 3-15, (1 and 2 are already assigned to a keycombination). This gives you the choice in game to determine 
+what model is spawned by using the key, but also exactly what tuning options are applied to it. 
+So just to be clear:
+LALT+A until LAlT+G remain unchanged Ini Slot 1 - Ini Slot 7
+LALT+H until LALT+L new using Vehicle Save Slot 3 - Vehicle Save Slot 7
+LALT+M until LALT+N unchanged Ini Slot 8 - Ini Slot 9
+LALT+O until LALT+Q new using Vehicle Save Slot 8 - Vehicle Save Slot 10
+LALT+R Unchanged Random Vehicle
+LALT+S new using Vehicle Slot 11
+LALT+T until LALT+U Unchanged Ini Slot 10 - Ini Slot 11
+LALT+V until LALT+W new using Vehicle Save Slot 12 -Vehicle Save Slot 13
+LALT+X Unchanged Ini Slot 12
+LALT+Y until LALT+Z new using Vehicle Save Slot 14 - Vehicle Save Slot 15
+And yes, you can define the keys for the new ones as well, add Spawn13Key1 until Spawn25key2 to keybindings section of the ini.
+
+No Ini Changes.
+
+Changes from 11.7
+-Fixed my fix for Yacht TV, was developed and working fine under rage+asisupport,did not work under SHV :(
+-Fixed a problem with Yacht Teleporting and the Radio.
+-Added Scripted SP and MP IPL's, other teleports.
+-Added 3 more Added Weapons menus, bringing the total to 200 added weapons.
+
+No ini Changes.
+
+Changes from 11.8
+-Fixed the nitro ability bar.
+-Changed the save vehicle car color menu in the vehicle color menu to Save Load Vehicle Color Menu, 3 menus to save or load a total of 75 slots.
+-Fixed a few tv's (casino penthouse, hangar, player facility and maybe a few others).
+-Various other small fixes. 
+
+No Ini Changes.
+
+Changes from 11.9
+-support for the latest patch
+-added 21 Vehicles, 5 have vehicle emblems. 
+-added 51 Peds.
+-added 3 Weapons.
+-added MP Heist4 Teleports menu (including the Island).
+-added three more yacht locations.
+-added 31 cutscenes
+The rest (objects, animations, voices, overlays) will come in a later version.
+
+No Ini Changes.
+
+Changes from 12.0
+-added 2816 objects, Object list 3, objects 59, you can of course also use search.
+-added 25.776 animations.
+-added 24 voices and 3472 speeches.
+-added 33 tattoos and 67 t-shirts.
+-added 43 Timecycles. 
+-added 6 walkingstyles.
+-added some stuff on the island (whale, sea-mines, etc).
+-added option Cayo Perico toggle, this will not teleport you to the island, but will enable the island (and disable Los Santos),
+of course you can disable the island which will enable Los Santos.
+-added rotating lights, ceiling lights, the screen and dry ice in the new night club. 
+-prevented animals and cs/csb models from being included in random bodyguard spawns.
+
+No Ini Changes.
+
+Changes from 12.1
+-Made the Music Locker fully customizeable. It's the same as the original nightclub, minus a few things that
+are not there (office).
+-If you choose No DJ, you can now go up to the dj booth, and switch between all stations in the game. 
+This has also been done for the old Nightclub. Station will be saved when you save the interior. 
+-Ability to set the light rig color independent of the DJ, both for the old Nightclub and the Music Locker. 
+
+No Ini Changes.
+
+Changes from 12.2
+-ability to have both Los Santos and the Island loaded together. 
+Map and water switching should happen automatically based on distance. 
+you can use save settings to have the island loaded at game start.
+-removed the Cayo Perico toggle because of the above. 
+-added a radio in the submarine
+-added map on the submarine table (thanks to CruelmasterMC).
+-various fixes for the three added yachts and for the two nightclubs.
+-fixes to cleanup for various render targets.
+-fixed the crewemblem for italirsx.
+
+No Ini Changes.
+
+Changes from 12.3
+-fixed an issue when someone would first use the normal teleport option, and then enabled both islands....
+
+No Ini Changes.
+
+Changes from 12.4
+-when you chose the option to have Cayo Perico together with Los Santos, I now show both maps at the same time.
+with the exception of when you are inside an interior or on a yacht. (if you have the reveal fort zandcudo option enabled).
+-ability to open the mansion doors on the island.
+-I know about the airport hangar missing the interior, I have tried serveral things but it does not want to load. 
+You can still visit the interior, but you first have to disable the Cayo/LS both option and then use the normal teleport option to Cayo Perico.
+
+No Ini Changes.
+
+Changes from 12.5
+-fixed the issue with the Cayo Perico Hangar interior, thanks to PNWParksFan.
+-doors on Cayo Perico mansion now close inward.
+-ability to change the radio on the island beach, walk up to the dj booth.
+-added three "shop" interiors on the island.
+-abiity to disable the aircraft carrier, will save using save all settings.
+-changed the rotating spotlights in the new nightclub a bit. 
+-there was a problem with the After Hours Garage teleport, this is fixed, 
+and the TV's are now set to the same movies as in the Nightclub, depending on DJ.
+also the movie, the club name and the music will match whatever you selected in the nightclub. 
+-changed the Avenger regarding color and timecycle, thanks to Root. 
+-added 10 additional scenarios. 
+-ability to change the mobile phone, options, menu 2, Mobile Phone. Will save using save all setttings.
+
+No Ini Changes.
+
+Changes from 12.6
+-fixed issue with LS lights due to LS/Island coexistence.
+-added ability to enable/disable the anti aircraft stations
+-added ability to enabe/disable the sea mines
+-added ability to open/close the hangar doors, all three for the island, all three will be saved.
+
+No Ini Changes
+
+Changes from 12.7
+-some fixes for tv, I now run some code the first time you enable the TV.
+-apart from the two normal channels, the third channel will now let you swap through 115 playlists, use Phone UP/Down (arrow UP/Down).
+-because of the above, you now can chose the same playlists in the Casino, the Arena, the Arcade
+and you can use the big screen in the faciltiy as a Tv. The yacht tv's also have this ability.  
+-added cinema teleports in other teleports, you can use the cinemascreen as a tv. 
+-the vehicle despawn global will now be autodetected (thanks to drp4lyf, alloc8or and ikt !).
+
+No Ini Changes
+
+Changes from 12.8
+-changed apartment radio a bit, and added a radio for Rooftop Eclipse Tower.
+-prepared trainer for future update (snow). 
+
+No Ini Changes
+
+Changes from 12.9
+-fixed a bug with Apartment Radio.
+-added three radios in Malibu Mansion, two in the Venice Beach House and five radios in Designer Apartment Remake.
+-added a few sitting objects.
+
+No Ini Changes
+
+Changes from 13.0
+-fixed missing attachments for the Cayo Perico weapons if load all weapons, or save/load weapons from weaponslot was used
+-changed the TV, the audio is now not frontend but relative to where the tv is located. 
+-Fixed an issue where the aircraft carrier interiors were not working, when LS/Cayo was enabled.
+-fixed the interior maps for the aircraft carrier (still needs reveal fort Zancudo on map option).
+-disable Cayo when you teleport to North Yankton, so that traffic in NY works, will automatically be re-enabled if you leave NY.
+
+No Ini Changes.
+
+Changes from 13.1
+-added 500 more saved car slots, a total of 1000 now.
+-the saved car is now displayed at all times for slots in the vehcicle load/save menu.
+-added 520 additional slots for license plates, a total of 600 add-on license plates are now possible, before just 80.
+
+No Ini Changes.
+
+Changes from 13.2
+-Recording UI updated (compatbility with latest patch).
+-added 18 Vehicles 17 with Crewemblem.
+-added 24 Peds (mpheist4 + MP Tuner Peds).
+-added 792 Objects (Objects60).
+-added 5680 animations (MP Tuner Animations).
+-added 8 voices and 2113 Speeches.
+-added 17 T-shirts + one hair style.
+-added 10 cutscenes.
+-added 16 Timecycles.
+-added MP Tuner Teleports, with 6 teleport locations, including customizable Tuner Garage.
+-to change radio in Tuner Garage, proceed to the door that won't open :)
+-added option for Low Grip Tyres in Vehicle Mod Menu (Benny).
+-added option for Lower Vehicle in Vehicle Mod Menu (Benny).
+-added option for Weapons Explosive Multiplier (Weapons Menu).
+
+No Ini Changes.
+
+Changes from 13.3
+-added version checks for new natives, yes people if you are not running the latest version, some stuff won't work.
+-added Track Wheel Category.
+-added the Arcade race in Tuner Garage.
+-the Media player now works, it will play one tracklist by default, to change to other tracklist, vehicle options Set Media Player Playlist.
+
+No Ini Changes
+
+
+Changes from 13.4
+-added Car Meet 2.
+-changed both Car Meets a bit.
+-small fix for the Tuner Garage.
+-meth labs now spawn in distinct color.
+-changed the Muscle spawn menu, now two pages instead of just one page.
+
+No Ini Changes
+
+Changes from 13.5
+-added the ipl's for the tuner garages (visible outside).
+-ability to enable/disable the arcade machines in the tuner garage.
+-fixed problems with vehicle load/save menu
+-fixed DLC radios disappearing after loading a save.
+
+No Ini Changes
