@@ -22,6 +22,5 @@ INSTALLATION
 Lancez votre jeux et faite F3. Enjoy :)
 
 
-<body>
-  ⚠️<p style="color:#FF0000";>Le mod menu ne provient pas de moi !</p>⚠️
-</body>
+
+  ⚠️Le mod menu ne provient pas de moi !⚠️
